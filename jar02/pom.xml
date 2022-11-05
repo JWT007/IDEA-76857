@@ -24,7 +24,7 @@
         <executions>
           <execution>
             <id>custom-jar</id>
-            <configuration>
+            <configuration combine.self="append">
               <classifier>wingding</classifier>
             </configuration>
           </execution>
